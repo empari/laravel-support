@@ -10,7 +10,7 @@ abstract class RouteFile
 
     /**
      * @var \Illuminate\Routing\Router
-     */Laravel
+     */
     protected $router;
 
     /**
