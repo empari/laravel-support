@@ -25,8 +25,8 @@ class PermissionReader
      */
     private function getControllers()
     {
+        $files = [];
         foreach (config('empari-support.path.controllers') as $path) {
-            $files = [];
             foreach (\File::allFiles($path) as $file) {
                 require_once $file->getRealPath();
                 $files [] = $file->getRealPath();
