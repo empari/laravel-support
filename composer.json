@@ -1,6 +1,6 @@
 {
     "name": "empari/laravel-support",
-    "version": "5.5.3",
+    "version": "5.5.4",
     "description": "Domain Tools, Utils and Support Package for Laravel",
     "type": "library",
     "license": "MIT",
